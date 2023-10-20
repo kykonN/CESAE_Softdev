@@ -14,7 +14,7 @@ public class Ex_05 {
 
         // Adicionar variaveis
 
-        double num1,num2,num3,media,p2,p3,p5;
+        double num1,num2,num3,media;
 
         // adicionar a leitura das variaveis que serão lidas
 
@@ -39,7 +39,7 @@ public class Ex_05 {
 
         media = num1 * 0.2 + num2 * 0.3 + num3 * 0.5;
 
-        System.out.println("A media ponderada é:" + media);
+        System.out.println("A media ponderada é:" + media + "%10");
 
 
 

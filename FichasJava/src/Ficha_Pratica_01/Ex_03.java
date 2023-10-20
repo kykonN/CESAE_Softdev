@@ -13,7 +13,7 @@ public class Ex_03 {
 
         double cump,larg,perimetro,area;
 
-        System.out.println("Insira o valor do cumprimento do terreno");
+        System.out.println("Insira o valor do comprimento do terreno");
 
         cump = input.nextInt();
 

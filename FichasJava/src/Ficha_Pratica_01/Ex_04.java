@@ -24,7 +24,7 @@ public class Ex_04 {
 
         System.out.println("Introduza o valor do raio");
 
-        r = input.nextInt();
+        r = input.nextDouble();
 
         //efectuar o calculo da area
 
