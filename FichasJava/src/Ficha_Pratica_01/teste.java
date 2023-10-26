@@ -1,52 +1,48 @@
-package Ficha_Pratica_01;
+/*package FichaPratica02;
 
 import java.util.Scanner;
 
-public class teste {
-
+public class Ex_16 {
     public static void main(String[] args) {
 
-        // Instanciar scanner
-
+        // Instanciar o Scanner (obrigatório para todos os exercícios)
         Scanner input = new Scanner(System.in);
 
-        // declarar variaveis
-        double num1, num2, soma, subtracao, multiplicacao, divisao;
+        // Declarar variáveis
+        int valor=0, quantidadeNotas=0;
 
+        // Ler valor
+        System.out.print("Insira o valor em €: ");
+        valor=input.nextInt();
 
-        // ler num1
-        System.out.print("Insira um numero: ");
+        if(valor%5==0){ // Valor múltiplo de 5
 
-        num1= input.nextDouble();
+            quantidadeNotas=valor/200;
+            System.out.println("Notas de 200: "+quantidadeNotas);
+            valor=valor%200;
 
-        //ler num2
-        System.out.print("Insira um numero: ");
-        num2= input.nextDouble();
+            quantidadeNotas=valor/100;
+            System.out.println("Notas de 100: "+quantidadeNotas);
+            valor=valor%100;
 
-        //calcular soma
-        soma = num1+num2;
+            quantidadeNotas=valor/50;
+            System.out.println("Notas de 50: "+quantidadeNotas);
+            valor=valor%50;
 
-        //apresentar soma
-        System.out.println("soma: " + soma);
+            quantidadeNotas=valor/20;
+            System.out.println("Notas de 20: "+quantidadeNotas);
+            valor=valor%20;
 
-        //calcular subtração
-        subtracao = num1-num2;
+            quantidadeNotas=valor/10;
+            System.out.println("Notas de 10: "+quantidadeNotas);
+            valor=valor%10;
 
-        //apresentar sub
-        System.out.println("subtracao: " + subtracao);
+            quantidadeNotas=valor/5;
+            System.out.println("Notas de 5: "+quantidadeNotas);
 
-        //calcular multiplicaçao
-        multiplicacao = num1*num2;
+        }else{
+            System.out.println("Valor "+valor+" não é múltiplo de 5!");
+        }
 
-        //apresentar multiplicaçao
-        System.out.println("multiplicacao: " + multiplicacao);
-
-        // calcular divisao
-        divisao = num1/num2;
-
-        //apresentar divisão
-        System.out.println("divisão: " + divisao);
     }
-}
-
-
+}*/
