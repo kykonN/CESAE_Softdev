@@ -1,4 +1,4 @@
-/*package Ficha_Pratica_02;
+package Ficha_Pratica_02;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Ex_16 {
 
         //variaveis
 
-        int valor;
+        int valor,quantidadenotas;
 
         System.out.println("Insira o valor que quer decompor");
 
@@ -26,29 +26,32 @@ public class Ex_16 {
         // ficando - 2 notas de 200€ e 1 nota de 100€
 
 
-        if (valor >= 200 ) {
-            System.out.println("O valor pode ser decomposto em: " + (valor / 200));
-            if(
-        }
-        if (valor < 200 && valor <= 100) {
-            System.out.println("O valor pode ser decomposto em:  " + (valor / 100));
-        }
-        if (valor < 100 && valor >= 50) {
-            System.out.println("O valor pode ser decomposto em: " + (valor / 50));
-        }
-        if (valor < 50 && valor >= 20) {
-            System.out.println("O valor pode ser decomposto em: " + (valor / 20));
-        }
-        if (valor < 20 && valor >= 10) {
-            System.out.println("O valor pode ser decomposto em: " + (valor / 10));
-        }
-        if (valor < 10 && valor >= 5) {
-            System.out.println("O valor pode ser decomposto em: " + (valor / 5));
+        if (valor%5==0){
+            quantidadenotas=valor/200;
+            System.out.println("notas de 200" + quantidadenotas );
+            valor=valor%200;
+
+
+            quantidadenotas=valor/100;
+            System.out.println("notas de 100" + quantidadenotas);
+            valor=valor%100;
+
+            quantidadenotas=valor/50;
+            System.out.println("notas de 50" + quantidadenotas);
+            valor=valor%50;
+
+            quantidadenotas=valor/20;
+            System.out.println("notas de 20" + quantidadenotas);
+            valor=valor%20;
+
+            quantidadenotas=valor/10;
+            System.out.println("notas de 10" + quantidadenotas);
+            valor=valor%10;
         }
 
     }
 
 
-}*/
+}
 
 

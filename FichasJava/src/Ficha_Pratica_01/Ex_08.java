@@ -12,12 +12,7 @@ canções. A duração de cada canção é lida em minutos e segundos.*/
 
         Scanner input = new Scanner(System.in);
 
-        /*Adicionar variaveis para as 5 musicas como mm e ss x 10 variaveis? )
 
-        Variavel double a contabilizar 1min segundo x 5 variaveis
-
-
-         */
 
         int minutosTotais,segundosTotais,segundosTotaisdoalbum,horas,minutos,segundos;
 
