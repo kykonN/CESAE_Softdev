@@ -37,8 +37,6 @@ public class Ex_11 {
 
             if (valor>=0 && valor <=25){
                 interv1 = interv1+1;
-
-
             }
             if (valor >= 26 && valor <= 50){
                 interv2 = interv2+1;
@@ -49,14 +47,14 @@ public class Ex_11 {
             if (valor >= 76 && valor <= 100) {
                 interv4 = interv4 + 1;
 
-            }else break;
+            }if (valor >100){
+                break;
+            }
 
             System.out.println("Insira outro valor");
             valor = input.nextInt();
-
-
         }
-        System.out.println("Os valores que escolheu encontram-se nos intervalos : " + "\n" + interv1 + "\n" +interv2 + "\n" + interv3 + "\n" +interv4 );
+        System.out.println("Os valores que escolheu encontram-se nos intervalos : " + "\n" +"[0.25] - " + interv1 + "\n"  + "[26,50] -" +interv2 + "\n" +"[51,75] -"+ interv3 + "\n" + "[76,100] -" +interv4 );
 
 
 
