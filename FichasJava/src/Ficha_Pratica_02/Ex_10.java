@@ -18,6 +18,8 @@ public class Ex_10 {
         String opcao;
         int valor1,valor2;
 
+
+
         //ler variaveis
 
         System.out.println("insira o primeiro valor");

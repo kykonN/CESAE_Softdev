@@ -1,5 +1,6 @@
 package Ficha_Pratica_03;
 
+import java.util.IllegalFormatCodePointException;
 import java.util.Scanner;
 
 public class Ex_13 {
@@ -34,9 +35,10 @@ public class Ex_13 {
 
 
 
-           if (valor1<extra){
+           if (valor1<=extra){
 
                check = check+1;
+
            }
 
 

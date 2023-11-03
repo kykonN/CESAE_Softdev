@@ -7,22 +7,24 @@ public class Ex_06 {
     //seu somatório. (Não necessita de Scanner ou input do utilizador).
     public static void main(String[] args) {
 
-        int n,c;
-        n = 0;
-        c= 0;
 
-        while (n<=100){
-            System.out.println(n);
+        int valor1, somatorio;
+
+        valor1 = 1;
+        somatorio= valor1;
+
+        while (valor1<100){
+            System.out.println(valor1);
+
+        valor1++;
+
+        somatorio=valor1+somatorio;}
+
+        System.out.println(somatorio);
 
 
-            c= c+n;
-
-            n= n+1;
-
-
-
-        }
-        System.out.println("A soma dos seus numeros " + c );
 
     }
-}
+    }
+
+

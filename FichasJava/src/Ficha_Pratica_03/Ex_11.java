@@ -33,7 +33,7 @@ public class Ex_11 {
 
         valor = input.nextInt();
 
-        while (valor >= 0 &&  valor <= 100  ){
+        while (valor >= 0){
 
             if (valor>=0 && valor <=25){
                 interv1 = interv1+1;
@@ -46,9 +46,6 @@ public class Ex_11 {
             }
             if (valor >= 76 && valor <= 100) {
                 interv4 = interv4 + 1;
-
-            }if (valor >100){
-                break;
             }
 
             System.out.println("Insira outro valor");

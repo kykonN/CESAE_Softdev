@@ -23,7 +23,7 @@ public class Ex_05 {
 
         while (valor1 <= valor2){
             System.out.println(valor1);
-            valor1 = valor1+1;
+            valor1++;// = valor1 = valor + 1;
         }
 
     }
