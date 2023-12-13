@@ -34,7 +34,7 @@ public class Ex_1 {
 
         System.out.println("\n");
 
-        for (int indice = 0; indice < 10; indice++){
+        for (int indice = vetor.length -1; indice >= 0; indice--){
             System.out.println(vetor[indice]);
 
         }
