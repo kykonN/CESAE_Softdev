@@ -1,0 +1,20 @@
+tipo;nome;preco;heroisPermitidos;ataque;ataqueEspecial;ataqueInstantaneo;vida;forca
+ArmaPrincipal;Slingshot;20;[Simpsons,Disney];15;35;0;0;0
+ArmaPrincipal;Rasengan;10;[Naruto];40;70;0;0;0
+ArmaPrincipal;Triton;4;[Disney];20;50;0;0;0
+ArmaPrincipal;Cuban Cigar CrustyClown;21;[Simpsons];15;30;0;0;0
+ArmaPrincipal;Skate Bart;10;[Naruto,Disney,Simpsons];20;25;0;0;0
+ArmaPrincipal;Pluto;5;[Disney];10;15;0;0;0
+ArmaPrincipal;Shuriken;10;[Naruto,Disney,Simpsons];15;35;0;0;0
+ArmaPrincipal;50 shades Wip;68;[Naruto,Disney,Simpsons];40;50;0;0;0
+ConsumivelCombate;Ramen;100;[Naruto,Disney,Simpsons];0;0;0;-50;200
+ConsumivelCombate;OcosPocos;80;[Naruto];0;0;200;0;0
+ConsumivelCombate;Lemon Ice;70;[Disney];0;0;100;0;0
+ConsumivelCombate;Smelly Beans;50;[Naruto,Disney,Simpsons];0;0;0;-75;100
+ConsumivelCombate;Unbigos cotton ;20;[Naruto,Disney,Simpsons];0;0;0;0;0
+ConsumivelCombate;Coffee Majestic;5;[Naruto,Disney,Simpsons];0;0;0;25;0
+Pocao;Redbull;20;[Simpsons,Disney,Naruto];0;0;0;10000;15
+Pocao;Duff Beer;18;[Simpsons];0;0;0;-15;15
+Pocao;Donut;20;[Simpsons,Disney,Naruto];0;0;0;50;0
+Pocao;krabby Patty;125;[Simpsons,Disney,Naruto];0;0;0;25;10
+Pocao;OF Candy;99;[Simpsons,Disney,Naruto];0;0;0;-69;0

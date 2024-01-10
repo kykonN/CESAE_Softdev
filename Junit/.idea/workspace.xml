@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ccceecf-1a4c-4a55-9d41-731cfe7ff973" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../GrandesNegocios/src/Controllers/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/ASCII/ASCII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Controllers/CriarPersonagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Controllers/Entidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Controllers/Heroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Controllers/NPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Domain/Item/ArmaPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Domain/Item/Consumivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Domain/Item/ConsumivelCombate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Domain/Item/ItemHeroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Domain/Item/Pocao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Domain/Item/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Main_teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Repository/MerchantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/Tools/Cvsreader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Boss/Sala_KONOHA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Boss/Sala_KONOHA_BOSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Boss/Sala_TEBAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Boss/Sala_TEBAS_BOSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Disney/Sala_Disney_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Disney/Sala_Disney_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Disney/Sala_Disney_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Disney/Sala_Disney_4_Bonus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Disney/Sala_Disney_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Disney/Sala_Disney_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Pokemon/Sala_Pokemon_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Pokemon/Sala_Pokemon_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Pokemon/Sala_Pokemon_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Pokemon/Sala_Pokemon_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/Sala_Vendedor_geral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/_1Menu_Inical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/_2Menu_Criar_Personagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tp_02_RPG/src/View/_3Sala_Vendedor_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qa_ficha/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qa_ficha/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qa_ficha/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qa_ficha/gradlew.bat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2aXjwM4UyotjI2VUEtLe9Gm6nDc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "0d570cb2-96df-43cc-80da-7f777e6d0afe"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ccceecf-1a4c-4a55-9d41-731cfe7ff973" name="Changes" comment="" />
+      <created>1704472058263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704472058263</updated>
+    </task>
+    <servers />
+  </component>
+</project>

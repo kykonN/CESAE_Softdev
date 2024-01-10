@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ex_03.AnimalTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-08T20:22:59" hostname="DESKTOP-6G195FG" time="0.021">
+  <properties/>
+  <testcase name="comerCarneTest()" classname="Ex_03.AnimalTest" time="0.017"/>
+  <testcase name="nomeTest()" classname="Ex_03.AnimalTest" time="0.003"/>
+  <system-out><![CDATA[tobias comeu CARNE.
+rolex nÃ£o come CARNE.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
