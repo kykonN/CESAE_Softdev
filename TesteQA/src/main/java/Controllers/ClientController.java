@@ -7,6 +7,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class ClientController {
+
     private ArrayList<Venda> todasVendas;
 
     public ClientController(String path) throws FileNotFoundException {

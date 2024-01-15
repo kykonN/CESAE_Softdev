@@ -10,6 +10,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class FuncionarioController {
+
+
     private ArrayList<Venda> todasVendas;
 
     public FuncionarioController() throws FileNotFoundException {

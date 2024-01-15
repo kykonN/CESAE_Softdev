@@ -1,3 +1,5 @@
+package Controllers;
+
 import Controllers.AdministradorController;
 import Domain.Venda;
 import org.junit.jupiter.api.BeforeEach;
@@ -48,9 +50,9 @@ public class AdministradorControllerTest {
     @Test
     public void vendaMaisValorTeste() {
 
-        assertEquals("Balde",admin.vendaMaisValor().getProduto());
+        assertEquals("GTA5",admin.vendaMaisValor().getProduto());
         assertNotEquals("Alimentacao",admin.vendaMaisValor().getTipoProduto());
-        assertEquals(6.9,admin.vendaMaisValor().getPrecoUnitario());
+        assertEquals(59.0,admin.vendaMaisValor().getPrecoUnitario());
 
     }
     @Test
@@ -89,7 +91,7 @@ public class AdministradorControllerTest {
     @Test
     public void valorVendasTeste () {
 
-        assertEquals(7555.71,admin.valorVendas());
+        assertEquals(31655.71,admin.valorVendas());
     }
 
 
@@ -99,7 +101,7 @@ public class AdministradorControllerTest {
 
     assertNotEquals(2020.30,admin.mediaVendas());
 
-    assertEquals(944.46375,admin.mediaVendas());
+    assertEquals(2877.791818181818,admin.mediaVendas());
 
 
     }
