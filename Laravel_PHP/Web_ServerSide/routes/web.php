@@ -1,9 +1,11 @@
 <?php
 
+use App\Http\Controllers\DasboardController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\TaskController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,14 +33,14 @@ Route::get('/ola', function () {
 Route::get('/hello/{nome}', function ($nome) {
     return '<h1> Hello Turma de Software </h1>'.$nome;
 });
+//Backoffice ROTAS 
 
+
+Route::get('/backoffice',[DasboardController::class,'viewBackoffice'])->name('backoffice.backoffice')->middleware('auth');
 // Rotas de Users 
 
 
 Route::get('/users/add',[UserController::class, 'addUser'] )->name('users.add');
-
-
-
 
 Route::get('/users/all',[UserController::class, 'allUser'] )->name('users.all');
 

@@ -102,17 +102,32 @@ public function deleteUser ($id){
         $helloAgain = 'cucu';
         $daysOfweek = $this->getWeekDays();
        // $info = $this->info();
-        $users = $this->getContacts();
+       // $users = $this->getContacts();
 
        // dd($users);
 
-     return view('users.all_users', compact(
+     
+
+        $search = request()->query('search') ? request()->query('search') : null;
+        //dd($search);
+        $users = DB::table('users');
+
+        if($search){
+            $users=$users
+            ->where ('name', 'like' , "%{$search}")
+            ->orWhere('email','like',"%{$search}%");
+        
+        };
+
+        $users=$users->get();   
+        
+        
+return view('users.all_users', compact(
             'hello',
             'helloAgain',
             'daysOfweek',
            // 'info',
         'users'));
-
     }
 
 

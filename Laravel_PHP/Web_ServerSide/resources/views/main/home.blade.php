@@ -4,7 +4,13 @@
 @section ('content')
 
 <h2> Hello World, estamos nas Views </h2>
-
+@auth
+    Olá, {{Auth::user()->name}}
+@endauth Estas no Back Office.
+@auth
+@if ($message)
+<div class = 'allert-success'>
+    <h5>Boa, és admin desta app </h5>
 <h5> Tens disponiveis estes links : </h5>
 
 {{--Para Criar link na Pagina home e chamar a blade que queremos !!! --}}

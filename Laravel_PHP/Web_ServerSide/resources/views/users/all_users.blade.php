@@ -11,6 +11,10 @@
 {{-- <p>{{$cesaeinfo['name']}}</p>
 <p>{{$cesaeinfo['address']}}</p>
 <p>{{$cesaeinfo['email']}}</p> --}}
+<form method="GET">
+<input type="text" value ="" name="search" id="">
+<button class ="btn btn-info" type="submit">Procurar </button>
+</form>
 
 @if(session('message'))
   <div class="alert alert-success">
